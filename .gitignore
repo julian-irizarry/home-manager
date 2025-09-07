@@ -1,0 +1,24 @@
+# nix build symlinks
+/result
+/result-*
+
+# nix-direnv
+.direnv/
+
+# Logs
+*.log
+
+# Editor/IDE junk
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# System cruft
+.DS_Store
+Thumbs.db
+
+# Secrets (only if you accidentally keep them nearby)
+*.env
+*.key
+*.pem
