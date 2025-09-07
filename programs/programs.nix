@@ -16,5 +16,5 @@
   programs.less.enable = true; # pager config
   programs.readline.enable = true; # better line editing/history
 
-  programs.vscode.enable = true;
+  programs.uv.enable = true;
 }

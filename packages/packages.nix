@@ -15,6 +15,8 @@
     zip
     xclip
     oh-my-posh
+    tmux
+    virt-top
 
     # Dev toolchains (add/remove as needed)
     git-crypt

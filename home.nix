@@ -24,7 +24,6 @@
       "obsidian"
       "google-chrome"
       "spotify"
-      "vscode"
     ];
 
   home.packages = with pkgs; [
@@ -40,6 +39,7 @@
     ./programs/kitty.nix
     ./programs/zsh.nix
     ./programs/git.nix
+    ./programs/vscode.nix
   ];
 
   home.activation.make-zsh-default-shell = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
