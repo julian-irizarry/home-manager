@@ -18,7 +18,7 @@
       nd = "nix develop -vvv -c $SHELL";
       cd = "z";
       ls = "eza -a --icons=always";
-      ll = "eza -lha --icons=always";
+      ll = "eza -lhag --icons=always";
       cat = "bat";
     };
 
