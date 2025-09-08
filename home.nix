@@ -33,6 +33,7 @@
 
   imports = [
     ./packages/packages.nix
+    ./packages/zen.nix
     # ./packages/gnome-extensions.nix
     ./programs/programs.nix
     ./programs/neovim.nix

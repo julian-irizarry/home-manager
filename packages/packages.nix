@@ -37,6 +37,7 @@
     git-credential-manager
     pre-commit
     nixfmt-rfc-style
+    compiledb
 
     # GUI apps
     vlc
